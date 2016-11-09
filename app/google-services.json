@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "106736449822",
+    "firebase_url": "https://hack-39569.firebaseio.com",
+    "project_id": "hack-39569",
+    "storage_bucket": "hack-39569.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106736449822:android:f8e5bbb07a994857",
+        "android_client_info": {
+          "package_name": "com.app.jin09.a108"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106736449822-5h0mjdsupccmpqb2p5k1kjo6putsjmrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyueVA6EpibUF1WWO5xh6ATVE2shj89PM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

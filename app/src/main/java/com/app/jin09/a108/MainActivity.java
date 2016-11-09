@@ -9,7 +9,6 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
 import android.os.Build;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
@@ -27,9 +26,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.Manifest;
-
-import com.google.android.gms.appindexing.Action;
-import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.PendingResult;
@@ -49,11 +45,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     Location mLastLocation;
 
     private Toast mtoast;
-    public String address = null;
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
