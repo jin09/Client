@@ -27,7 +27,11 @@
         <activity android:name=".RaiseDialogOnBroadcast"
             android:theme="@style/Theme.AppCompat">
         </activity>
-
+        <receiver android:name=".CallHandler" >
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
