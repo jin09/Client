@@ -2,10 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+        android:title="Change Name/Ph"
         android:orderInCategory="100"
         app:showAsAction="never" />
     <item
-        android:title="Item"
-        android:orderInCategory="101" />
+        android:title="Request Complete"
+        android:orderInCategory="101"
+        android:id="@+id/complete" />
 </menu>

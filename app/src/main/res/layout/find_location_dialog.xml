@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="73dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/locationbutton"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageButton" />
+
+    <TextView
+        android:text="@string/location_not_found_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="25dp"
+        android:id="@+id/textView5" />
+</LinearLayout>

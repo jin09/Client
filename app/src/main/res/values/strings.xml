@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">108</string>
     <string name="action_settings">settings</string>
+    <string name="location_not_found_dialog">Go to google maps and click the above button, wait for the
+    location and come back here as soon as the location is found.</string>
 </resources>
